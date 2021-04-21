@@ -1,0 +1,25 @@
+.infoBox{
+    border-radius: 12px;
+    margin-top: 10px;
+    padding: 10px;
+    padding-top: 1px;
+    background-color: royalblue;
+}
+
+.box{
+    margin: auto;
+    font-size: 18px;
+    justify-content: center;
+    text-align: center;
+}
+
+.box a{
+    color: seagreen;
+    text-decoration: none;
+}
+
+.infoImg{
+    width: 75%;
+    border: 2px red solid;
+}
+

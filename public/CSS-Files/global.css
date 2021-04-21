@@ -1,0 +1,31 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    margin: auto;
+    background-color: #FFF6F6;
+    font-family: 'Poppins',sans-serif;
+}
+.HeaderBackground
+{
+    background-color:#C5E2F6;
+    width: 100vw;
+    color:#FFF6F6;
+}
+
+footer{
+    padding: 4rem;
+    text-align: center;
+    background-color: #333;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+main{
+    margin: 5%;
+}
