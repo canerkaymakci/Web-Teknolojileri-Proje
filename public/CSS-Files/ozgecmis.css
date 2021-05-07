@@ -1,0 +1,26 @@
+main{
+    display: flex;
+    margin: 4rem;
+    background-color: whitesmoke;
+    opacity: 0.8;
+    padding: 3rem;
+}
+
+aside{
+    flex: 25%;
+    padding: 1rem;
+}
+
+section{
+    flex: 75%;
+    padding-left: 5rem;
+    padding-top: 5rem ;
+}
+
+body{
+    background-image: url(../Image/bursa-login2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}

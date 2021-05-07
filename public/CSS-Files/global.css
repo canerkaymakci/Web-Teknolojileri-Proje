@@ -29,3 +29,8 @@ footer a{
 main{
     margin: 5%;
 }
+
+a{
+    text-decoration: none;
+    color: black;
+}

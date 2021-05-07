@@ -32,6 +32,7 @@
           <div class="navbar-nav">
             <a class="nav-link" aria-current="page" href="../src/memleket.html">Memleketim</a>
             <a class="nav-link" href="../src/miras.html">Miraslarımız</a>
+            <a class="nav-link" href="../src/ozgecmis.html">Özgeçmiş</a>
             <a class="nav-link" href="../src/iletisim.html">İletişim</a>
             <a class="nav-link active" href="../src/giris.html">Giriş</a>
           </div>
@@ -39,6 +40,27 @@
       </div>
     </nav>
   </header>
+  <section>
+    <div class="text-center mt-5 text-light">
+      <i style="font-size: 4rem;">Caner ile Buram Buram Bursa'ya</i><br>
+      <i style="font-size: 4rem;">Hoşgeldiniz!</i>
+    </div>
+  </section>
+  <section>
+    <form action="../public/PhpFiles/giris.php" method="POST" onsubmit=" return login() " class="box">
+      <h1 class="text-center text-success">Giriş Yap</h1>
+      <div class="input-group input-group-lg">
+        <input type="text" id="kullaniciAdi" name="kullaniciAdi" placeholder="Kullanıcı Adı" class="form-control my-3" autocomplete="off">
+      </div>
+      <div class="input-group input-group-lg">
+        <input type="password" id="sifre" name="sifre" placeholder="Şifre" class="form-control my-3">
+      </div>
+      <div class="input-group">
+        <input type="submit" name="submit" class="btn btn-success translate-middle-x start-50 btn-lg" value="Giriş Yap">
+      </div>
+    </form>
+  </section>
+  <script src="../public/JsFiles/giris.js"></script>
 </body>
 
 </html>
