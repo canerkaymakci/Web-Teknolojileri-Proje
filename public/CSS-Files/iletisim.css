@@ -1,0 +1,31 @@
+body{
+    background-image: url(../Image/bursa-login.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.box{
+    padding: 40px;
+    position: absolute;
+    margin-top: 5%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 500px;
+    height: auto;
+    background-color: whitesmoke;
+    opacity: 0.6;
+    transition: opacity 1s;
+    border-radius: 8%;
+}
+
+.box:hover{
+    opacity: 0.9;
+    transition: opacity 1s;
+}
+
+.form-control:focus{
+    border-color: #198754!important;
+    box-shadow: 0 0 0 0.25rem rgba(25, 135, 84, 0.25);
+}
