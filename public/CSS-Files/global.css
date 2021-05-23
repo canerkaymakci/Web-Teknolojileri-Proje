@@ -11,15 +11,17 @@ body{
 }
 .HeaderBackground
 {
-    background-color:#C5E2F6;
+    background-color:whitesmoke;
     width: 100vw;
     color:#FFF6F6;
+    opacity: 0.9;
 }
 
 footer{
-    padding: 4rem;
+    padding: 3rem;
     text-align: center;
-    background-color: #333;
+    background-color:whitesmoke;
+    opacity: 0.9;
 }
 
 footer a{

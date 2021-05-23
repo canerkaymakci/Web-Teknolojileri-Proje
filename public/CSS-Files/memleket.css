@@ -1,0 +1,15 @@
+.box{
+    margin: 4rem;
+    background-color: whitesmoke;
+    opacity: 0.8;
+    padding: 3rem;
+    border-radius: 8%;
+}
+
+body{
+    background-image: url(../Image/fade/10.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}

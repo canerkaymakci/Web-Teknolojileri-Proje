@@ -1,5 +1,5 @@
 body{
-    background-image: url(../Image/bursa-login.jpg);
+    background-image: url(../Image/fade/3.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -28,4 +28,15 @@ body{
 .form-control:focus{
     border-color: #198754!important;
     box-shadow: 0 0 0 0.25rem rgba(25, 135, 84, 0.25);
+}
+
+.phpFont{
+    width:100%;
+    height:90vh;
+    text-align:center;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size: 4rem;
+    font-style: italic;color: #f8f9fa;
 }

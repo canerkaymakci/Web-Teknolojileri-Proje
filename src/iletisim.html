@@ -46,46 +46,48 @@
     </div>
   </section>
   <section>
-    <form action="" class="box">
+    <form action="../public/PhpFiles/iletisim.php" id="iletisimForm" class="box" method="POST">
       <h2 class="text-center text-success">Bilgiler</h2>
       <div class="input-group input-group-lg">
-        <input type="text" placeholder="İsim" class="form-control my-3" autocomplete="off">
+        <input type="text" placeholder="İsim" id="isim" name="isim" class="form-control my-3" autocomplete="off" onblur="isimKontrol()">
       </div>
       <div class="input-group input-group-lg">
-        <input type="text" placeholder="Soyisim" class="form-control my-3" autocomplete="off">
+        <input type="text" placeholder="Soyisim" id="soyisim" name="soyisim" class="form-control my-3" autocomplete="off" onblur="soyisimKontrol()">
       </div>
       <div class="input-group input-group-lg">
-        <input type="text" placeholder="Mail" class="form-control my-3" autocomplete="off">
+        <input type="text" placeholder="Mail" id="mail" name="mail" class="form-control my-3" autocomplete="off" onblur="mailKontrol()">
       </div>
       <div class="form-check">
-        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+        <input class="form-check-input" value="Kadın" type="radio" name="cinsiyet" id="cinsiyet" required>
         <label class="form-check-label" for="flexRadioDefault1">
           Kadın
         </label>
       </div>
       <div class="form-check">
-        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+        <input class="form-check-input" value="Erkek" type="radio" name="cinsiyet" id="cinsiyet" required>
         <label class="form-check-label" for="flexRadioDefault2">
           Erkek
         </label>
       </div>
       <div>
-        <select name="" class="form-select" aria-label="Sayfayı Nereden Buldunuz?" id="">
-          <option value="sosyalMedya" selected>Sayfayı Nereden Buldunuz?</option>
-          <option value="sosyalMedya">Sosyal Medya</option>
-          <option value="reklam">Reklam</option>
-          <option value="arkadas">Arkadaş</option>
-          <option value="github">GitHub</option>
+        <select class="form-select" aria-label="Sayfayı Nereden Buldunuz?" id="secim" name="secim" onblur="secimKontrol()">
+          <option value="ilkSecim" selected>Sayfayı Nereden Buldunuz?</option>
+          <option value="Sosyal Medya">Sosyal Medya</option>
+          <option value="Reklam">Reklam</option>
+          <option value="Arkadas">Arkadaş</option>
+          <option value="GitHub">GitHub</option>
         </select>
       </div>
       <div class="input-group input-group-lg">
-        <textarea type="text" rows="5" placeholder="Mesajınız" class="form-control my-3" autocomplete="off"></textarea>
+        <textarea type="text" rows="5" placeholder="Mesajınız" id="mesaj" name="mesaj" class="form-control my-3" autocomplete="off" onblur="mesajKontrol()"></textarea>
       </div>
-      <div class="input-group">
-        <input type="submit" name="submit" class="btn btn-success translate-middle-x start-50 btn-lg" value="Gönder">
+      <div class="input-group buttons">
+        <input type="submit" name="submit" id="submit" class="btn btn-success translate-middle-x btn-lg mx-2" value="Gönder" onclick="genelKontrol()">
+        <input type="reset" class="btn btn-success translate-middle-x btn-lg" value="Temizle">
       </div>
     </form>
   </section>
+  <script src="../public/JsFiles/iletisim.js"></script>
 </body>
 
 </html>

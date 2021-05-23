@@ -1,9 +1,18 @@
+body{
+    background-image: url(../Image/fade/9.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 .infoBox{
     border-radius: 12px;
     margin-top: 10px;
     padding: 10px;
     padding-top: 1px;
-    background-color: royalblue;
+    background-color: #E3CAA3;
+    opacity:0.9;
 }
 
 .box{
@@ -14,7 +23,7 @@
 }
 
 .box a{
-    color: seagreen;
+    color: #dc3545;
     text-decoration: none;
 }
 
